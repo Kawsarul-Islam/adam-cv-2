@@ -1,0 +1,14 @@
+@media only screen and (min-width: 425px) and (max-width: 786px) {
+    .icons {
+        display: none;
+    }
+    .contact{
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (min-width: 787px) {
+    .icons {
+        display: block;
+    }
+}
