@@ -4,18 +4,26 @@ import './Header.css'
 
 const Header = () => {
 
+    const scrollToSection = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     const navItems = <>
-        <Link>
+        <Link onClick={() => scrollToSection('accueil')}>
             <li className='lg:mr-5 text-xl text-[#FFF] font-black nav-shadow'>ACCUEIL</li>
         </Link>
-        <Link>
-            <li className='lg:mr-5 text-xl text-[#FFF] font-black nav-shadow'>EXPERIENCE </li>
+        <Link onClick={() => scrollToSection('experience')}>
+            <li className='lg:mr-5 text-xl text-[#FFF] font-black nav-shadow'>EXPERIENCE</li>
         </Link>
-        <Link>
-            <li className='lg:mr-5 text-xl text-[#FFF] font-black nav-shadow'>FORMATION </li>
+
+        <Link onClick={() => scrollToSection('formation')}>
+            <li className='lg:mr-5 text-xl text-[#FFF] font-black nav-shadow'>FORMATION</li>
         </Link>
-        <Link>
-            <li className='lg:mr-5 text-xl text-[#FFF] font-black nav-shadow'>CONTACT </li>
+        <Link onClick={() => scrollToSection('contact')}>
+            <li className='lg:mr-5 text-xl text-[#FFF] font-black nav-shadow'>CONTACT</li>
         </Link>
 
     </>
@@ -38,7 +46,7 @@ const Header = () => {
                     {navItems}
                 </ul>
             </div>
-            
+
         </div>
     );
 };

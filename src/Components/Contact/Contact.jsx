@@ -12,19 +12,21 @@ const Contact = () => {
                     <FaGithub className="lg:text-7xl text-[#38b4ff] icons" />
                 </p>
                 <p>
-                    <FaLinkedin className="lg:text-7xl text-[#38b4ff] icons"  />
+                    <FaLinkedin className="lg:text-7xl text-[#38b4ff] icons" />
                 </p>
 
                 <p>
-                    <IoCall className="text-4xl md:text-6xl text-[#38b4ff] lg:hidden mt-2 lg:mt-0"  />
+                    <IoCall className="text-4xl md:text-6xl text-[#38b4ff] lg:hidden mt-2 lg:mt-0" />
                 </p>
 
-                <p>
-                    <FaCirclePlus className="text-5xl md:text-7xl lg:mx-5 text-[#38b4ff] lg:hidden "  />
-                </p>
+                <div data-aos="fade-up">
+                    <p>
+                        <FaCirclePlus className="text-5xl md:text-7xl lg:mx-5 text-[#38b4ff] lg:hidden " />
+                    </p>
+                </div>
 
                 <p>
-                    <MdEmail className="text-4xl md:text-6xl lg:ml-5 mt-2 lg:mt-0 text-[#38b4ff] lg:hidden "  />
+                    <MdEmail className="text-4xl md:text-6xl lg:ml-5 mt-2 lg:mt-0 text-[#38b4ff] lg:hidden " />
                 </p>
 
 
@@ -42,7 +44,7 @@ const Contact = () => {
                 <p className="text-base md:text-3xl mt-3  md:mt-5 lg:mt-10">
                     <span className="text-xl md:text-4xl font-semibold">MAIL: </span> Adam.ribeiro@outlook.com
                 </p>
-                
+
 
             </div>
         </div>

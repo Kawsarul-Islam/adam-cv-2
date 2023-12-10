@@ -8,6 +8,7 @@ import RightDivider from "../Components/Divider/RightDivider";
 import RightDivider2 from "../Components/Divider/RightDivider2";
 import Experience from "../Components/Experience/Experience";
 import Formation from "../Components/Formation";
+import GoToTop from "../Components/GoToTop/GoToTop";
 import Langues from "../Components/Langues";
 import Presentation from "../Components/Presentation/Presentation";
 
@@ -25,6 +26,7 @@ const Home = () => {
             <Experience></Experience>
             <LeftDivider3></LeftDivider3>
             <Langues></Langues>
+            <GoToTop></GoToTop>
         </div>
         
     );
