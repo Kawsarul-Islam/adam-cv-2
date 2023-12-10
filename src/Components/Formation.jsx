@@ -5,7 +5,7 @@ const Formation = () => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10 w-7/12 mx-auto text-center'>
             <div>
-                <img className='w-44 ml-10 md:ml-0' src={varsity} />
+                <img className='w-44 ml-5 md:ml-0' src={varsity} />
             </div>
 
             <div>
@@ -15,7 +15,7 @@ const Formation = () => {
             </div>
 
             <div>
-                <img className='w-44 ml-10 md:ml-0' src={damp}/>
+                <img className='w-44 ml-5 md:ml-0' src={damp}/>
             </div>
 
             <div>
