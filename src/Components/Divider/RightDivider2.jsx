@@ -7,8 +7,8 @@ const RightDivider2 = () => {
         AOS.init();
     },[])
     return (
-        <div id='experience' className="flex justify-end"> 
-            <div data-aos="fade-left" className="mt-36 mb-20 w-3/4 flex justify-center bg-[#38B6FF] text-3xl md:text-5xl text-[#c9e7fa] rounded-l-3xl">
+        <div id='experience' className="flex justify-end "> 
+            <div data-aos="fade-up" className="mt-36 mb-20 w-3/4 flex justify-center bg-[#38B6FF] text-3xl md:text-5xl text-[#c9e7fa] rounded-l-3xl">
                 <h1>EXPERIENCE</h1>
             </div>
         </div>

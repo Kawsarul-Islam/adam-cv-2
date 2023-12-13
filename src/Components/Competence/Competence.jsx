@@ -12,8 +12,8 @@ const Competence = () => {
         AOS.init();
     },[])
     return (
-        <div className="mt-24">
-            <div className='lg:flex lg:justify-center lg:gap-32' data-aos="fade-left">
+        <div className="mt-24 ">
+            <div className='lg:flex lg:justify-center lg:gap-10' data-aos="fade-up">
                 <div className="text-center">
                     <h1 className="text-2xl mb-1 text-[#757575] font-bold">AUTONOMIE</h1>
                     <h1 className="text-2xl mb-1 text-[#757575] font-bold">CREATIVITE</h1>
@@ -27,7 +27,7 @@ const Competence = () => {
                     <img className='w-10 lg:w-28 lg:relative lg:bottom-24 lg:left-3' src={css} />
                 </div>
             </div>
-            <div className='lg:relative text-center lg:bottom-48 lg:right-96' data-aos="fade-right">
+            <div className='lg:relative text-center lg:bottom-48 lg:right-96' data-aos="fade-up">
                 <h1 className="text-2xl mb-1 text-[#757575] font-bold">TECHNIQUE DE VENTE</h1>
                 <h1 className="text-2xl mb-1 text-[#757575] font-bold">GESTION DE POINT DE VENTE</h1>
                 <h1 className="text-2xl mb-1 text-[#757575] font-bold">AISANCE RELATIONNELLE</h1>

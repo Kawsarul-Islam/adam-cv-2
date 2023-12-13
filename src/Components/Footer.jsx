@@ -2,7 +2,7 @@
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center bg-[#38B6FF] text-base-content mt-12">
+        <footer className="footer footer-center bg-[#38B6FF] text-base-content mt-12 ">
             <aside>
                 <p className="md:text-4xl font-black text-[#fdfdfd]">COPYRIGHT : ADAM RIBEIRO</p>
             </aside>

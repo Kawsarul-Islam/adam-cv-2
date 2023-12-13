@@ -5,15 +5,17 @@ import { MdEmail } from "react-icons/md";
 
 import './Contact.css'
 const Contact = () => {
+    const linkedInProfileUrl = "https://www.linkedin.com/in/ribeiro-adam-21464313a/";
+
     return (
-        <div className="flex contact justify-center md:gap-12 lg:gap-24 lg:mt-24 mt-16 ">
+        <div className="flex contact justify-center md:gap-12 lg:gap-24 lg:mt-24 mt-16  ">
             <div className="flex gap-5 justify-center md:gap-7 lg:gap-10 mt-8 lg:mt-0 ">
                 <p>
                     <FaGithub className="lg:text-7xl text-[#38b4ff] icons" />
                 </p>
-                <p>
+                <a href={linkedInProfileUrl} target="_blank" rel="noopener noreferrer">
                     <FaLinkedin className="lg:text-7xl text-[#38b4ff] icons" />
-                </p>
+                </a>
 
                 <p>
                     <IoCall className="text-4xl md:text-6xl text-[#38b4ff] lg:hidden mt-2 lg:mt-0" />
@@ -38,7 +40,7 @@ const Contact = () => {
             </div>
             <div className="text-center">
                 <p className="text-base md:text-3xl">
-                    <span className=" text-xl md:text-4xl font-semibold">TEL: </span> 07.81.69.08.16
+                    <span className=" text-xl md:text-4xl font-semibold">TEL: </span> 0781690816
                 </p>
 
                 <p className="text-base md:text-3xl mt-3  md:mt-5 lg:mt-10">

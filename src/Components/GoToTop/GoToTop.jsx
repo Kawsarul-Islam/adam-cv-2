@@ -10,7 +10,7 @@ const goTop = () => {
 const GoToTop = () => {
     return (
         <div>
-            <p className="absolute right-0 mt-[-5rem] p-[1rem] cursor-pointer">
+            <p className="absolute right-0 mt-[-5rem] md:p-[1rem] cursor-pointer">
                 <FaArrowCircleUp className="text-5xl" onClick={goTop} />
             </p>
         </div>
